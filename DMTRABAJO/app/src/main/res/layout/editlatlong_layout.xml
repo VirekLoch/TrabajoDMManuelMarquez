@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blancogris">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/lat"
+                android:gravity="center_vertical"
+                android:textSize="24dp"
+                android:textColor="@color/negroOsc"
+                android:layout_weight="0.2">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/edLat"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.9"
+                android:textColor="@color/negroOsc"
+                android:inputType="numberDecimal|numberSigned">
+
+            </EditText>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:gravity="center_vertical"
+                android:textColor="@color/negroOsc"
+                android:text="@string/lng"
+                android:textSize="24dp">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/edLng"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.9"
+                android:textColor="@color/negroOsc"
+                android:inputType="numberDecimal|numberSigned">
+
+            </EditText>
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="@string/btVolver"
+                android:id="@+id/btnVolver">
+
+            </Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="@string/btAceptar"
+                android:id="@+id/btnAñadir">
+
+            </Button>
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">LEIRA-Z</string>
+    <string name="maps_key" translatable="false">AIzaSyDHcTgCdtoMUWN7_GUQJSQLUq1UgqktJLY</string>
+    <string name="tvBienvenida">Benvido a LEIRA-Z</string>
+    <string name="tvSub">O xestor de fincas para a xeración Z</string>
+    <string name="tvLog">Usuario: </string>
+    <string name="tvPass">Contrasinal:: </string>
+    <string name="edLog">Usuario</string>
+    <string name="tvReg">Non tes conta? Rexistrate agora!</string>
+    <string name="btLog">"Imos"</string>
+    <string name="btReg">Rexistrate!</string>
+    <string name="btVolver">Volver</string>
+    <string name="exitReg">Usuario creado correctamente</string>
+    <string name="failReg">Ocorreu un error proba de novo!</string>
+    <string name="existUsr">O nome de usuario xa existe proba con outro diferente</string>
+    <string name="malPass">O contrasinal non corresponde co usuario</string>
+    <string name="btBuscar">Buscar</string>
+    <string name="exitFinca">Rexistrado de forma correcta</string>
+    <string name="errorFinca">Ocorreu un error proba de novo!</string>
+    <string name="lat">Latitude: </string>
+    <string name="lng">Lonxitude: </string>
+    <string name="btAceptar">Aceptar </string>
+    <string name="addPt">Novo Punto</string>
+    <string name="crearMapa">Crear Mapa</string>
+    <string name="limpiarPuntos">Limpar Todo</string>
+    <string name="addFinca">Añadir Finca</string>
+    <string name="editFinca">Editar Finca</string>
+    <string name="nombre">Nome:</string>
+    <string name="tipo">Tipo:</string>
+    <string name="desc">Descripcion:</string>
+    <string name="existFinca">O nome xa existe</string>
+
+    <string-array name="tiposFinca">
+        <item>Finca</item>
+        <item>Mato</item>
+        <item>Punto</item>
+        <item>Outro</item>
+    </string-array>
+    <string-array name="tiposFincaSearch">
+        <item>Ver todos</item>
+        <item>Finca</item>
+        <item>Mato</item>
+        <item>Punto</item>
+        <item>Outro</item>
+    </string-array>
+</resources>

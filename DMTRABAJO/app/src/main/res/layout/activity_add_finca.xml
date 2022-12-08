@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddFinca"
+    android:background="@color/blancogris">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="100dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp"
+        >
+
+        <TextView
+            android:id="@+id/tvNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/negroOsc"
+            android:layout_gravity="left|center_vertical"
+            android:text="@string/nombre" />
+
+        <EditText
+            android:id="@+id/edNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="end"
+            android:textColor="@color/negroOsc"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:id="@+id/tvTipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/negroOsc"
+            android:layout_gravity="left|center_vertical"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="@string/tipo" />
+
+        <Spinner
+            android:id="@+id/edTipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@color/blancogris"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:spinnerMode="dropdown"
+            android:layout_weight="2"
+            android:entries="@array/tiposFinca" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="40dp">
+
+        <TextView
+            android:id="@+id/tvDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="@color/negroOsc"
+            android:text="@string/desc" />
+
+        <EditText
+            android:id="@+id/edDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:layout_gravity="right"
+            android:textColor="@color/negroOsc"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/btnA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".225"
+            android:gravity="center_vertical"
+            android:text="@string/addFinca" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="left|bottom"
+        android:paddingTop="10dp"
+        android:paddingBottom="40dp"
+        android:paddingLeft="20dp"
+        >
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".225"
+            android:gravity="center_vertical"
+            android:text="@string/btVolver" />
+    </RelativeLayout>
+
+</LinearLayout>
